@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.main {
+    background-color: #D3D3D3;
+    height: 100%;
+    padding: 0.5rem;
+}
+
+.nav-barlogoborder {
+    width: 160px;
+    height: 40px;
+    padding: 1px 2px 2px 4px;
+    font-size: 12px;
+}
+
+.nav-bar {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60px;
+    box-shadow: 5px 2px 2px white;
+    z-index: 10;
+    top: 0;
+
+}
+
+/* nav search */
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    width: 720px;
+    height: 40px;
+    border-radius: 3px;
+}
+
+.search-icon {
+    border: none;
+    display: flex;
+    width: 45px;
+    background-color: lightblue;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    background-color: lightblue;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* button */
+.button {
+    display: flex;
+    align-items: center;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    padding: 8px;
+    gap: 0.5rem;
+    opacity: 0.75;
+}
+
+.button:hover {
+    opacity: 1;
+    border: 2px solid transparent;
+}
+
+.user {
+    align-items: center;
+    font-size: small;
+}
+
+.account {
+    align-items: center;
+}
+
+.rotate {
+    align-items: center;
+}
+
+/* cart{ */
+.cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.cart i {
+    align-items: center;
+    justify-content: center;
+}
+
+.name {
+    align-items: center;
+    justify-content: center;
+}
+
+.shoap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.doat {
+    opacity: 0.75;
+}
+
+.doat:hover {
+    opacity: 2;
+}
+
+/* secound-box */
+.secound-box {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 100px;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.grocery {
+    align-items: center;
+    justify-content: center;
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+.grocery:hover {
+    opacity: 2;
+    color: black;
+}
+
+.name1 {
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+}
+
+/* third-box */
+.discount {
+    height: 100px;
+    width: 100%;
+}
+
+.image-discount {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100%;
+}
+
+/* fourth-box */
+.boxes {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: 10;
+    cursor: pointer;
+}
+
+.card img {
+    opacity: 0.75;
+}
+
+.card img:hover {
+    opacity: 1;
+}
+
+.fift-box {
+    height: 50vh;
+    width: 100%;
+    background-color: white;
+    justify-content: space-evenly;
+    gap: 2rem;
+    display: block;
+}
+
+.namek {
+    margin-left: 3.5rem;
+    align-items: center;
+}
+
+.imagekk {
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3.5rem;
+}
+
+/* sixt-box */
+.image2 {
+    height: 40vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.last {
+    padding: 0.5rem;
+}
+
+.footer {
+    background-color: #333333;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+    cursor: pointer;
+}
+
+.about {
+    color: white;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.about .head {
+    opacity: 0.75;
+    font-size: small;
+    align-items: center;
+}
+
+.about:hover {
+    text-decoration-line: underline;
+}
+
+.group .head1 {
+    opacity: 0.75;
+    font-size: small;
+    align-items: center;
+}
+
+.group:hover {
+    text-decoration-line: underline;
+}
+
+.help .head2 {
+    opacity: 0.75;
+    font-size: small;
+    align-items: center;
+}
+
+.help:hover {
+    text-decoration-line: underline;
+}
+
+.consumer .head3 {
+    opacity: 0.75;
+    font-size: small;
+    align-items: center;
+}
+
+.consumer:hover {
+    text-decoration-line: underline;
+}
+
+.flipkart .head4 {
+    opacity: 0.75;
+    font-size: small;
+    align-items: center;
+}
+
+.flipkart:hover {
+    text-decoration-line: underline;
+}
+.last-foot {
+    color: white;
+    display: flex;
+    background-color: #333333;
+    height: 50px;
+    width: 100%;
+    justify-content: space-evenly;
+    cursor: pointer;
+    align-items: center;
+}
